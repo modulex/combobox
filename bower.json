@@ -1,11 +1,6 @@
 {
     "name": "modulex-combobox",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/combobox.git"
-    },
     "ignore": [
         "**/*",
         "!build/**/*",
@@ -16,14 +11,14 @@
     ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-io": "modulex-io#1.x",
-        "modulex-menu": "modulex-menu#1.x",
-        "modulex-component": "modulex-component#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-io": "modulex/io#1.x",
+        "modulex-menu": "modulex/menu#1.x",
+        "modulex-component": "modulex/component#1.x"
     },
     "devDependencies": {
-        "modulex-button": "modulex-button#1.x",
-        "modulex-css": "modulex-css#1.x"
+        "modulex-button": "modulex/button#1.x",
+        "modulex-css": "modulex/css#1.x"
     }
 }
